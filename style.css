@@ -121,3 +121,48 @@ form > a {
 form > p {
   text-align: center;
 }
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  img,
+  h1,
+  h3,
+  .login,
+  .signup {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .login h2,
+  .signup h2 {
+    font-size: 28px;
+  }
+
+  .login p,
+  .signup p {
+    font-size: 18px;
+  }
+
+  label {
+    font-size: 17px;
+  }
+
+  input {
+    padding: 16px;
+    font-size: 18px;
+  }
+
+  button {
+    padding: 16px;
+    font-size: 20px;
+  }
+}
